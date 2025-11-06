@@ -1,29 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "ch06_eg04_print_stars.h"
+#include "ch07_eg01_print_stars.h"
+
+int starX[8] = {0}, starY[8] = {0};
 
 int main(void)
 {
     srand(time(NULL));
-    create_and_print_stars(8);
+    create_stars(8);
+    print_stars(8);
 
 
     return 0;
 }
 
-void create_and_print_stars(int n)
+void create_stars(int n)
 {
-    int starX[8] = {0}, starY[8] = {0};
-    
-    
     for (int i = 0; i < n; i++)
     {
         starX[i] = rand() % 20;
         starY[i] = rand() % 10;
     }
+}
 
-    
+void print_stars(int n)
+{
     for (int y = 0; y < 10; y++)
     {
         for (int x = 0; x < 20; x++)
