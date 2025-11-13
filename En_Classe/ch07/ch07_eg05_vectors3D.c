@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    // Déclaration et initialisation de deux vecteurs 3D
+    // Déclaration et initialisation des deux vecteurs 3D
     Vec3D vecU = {3.9, -1.3, 4.5};
     Vec3D vecV = {0.2, 5.8, -3.0};
     
@@ -19,7 +19,7 @@ int main(void)
     printf("vecU: %.2f\n", norm(vecU));
     printf("vecV: %.2f\n", norm(vecV));
 
-    printf("\nPruduit scalaire des vecteurs:\n");
+    printf("\nProduit scalaire des vecteurs:\n");
     printf("%.2f\n", dotProduct(vecU, vecV));
 
     printf("\nVecteurs unitaires des vecteurs:\n");
