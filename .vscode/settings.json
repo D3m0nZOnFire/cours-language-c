@@ -7,7 +7,9 @@
         "ch07_eg01_print_stars.h": "c",
         "ch07_eg02_print_stars_ii.h": "c",
         "ch07_eg03_student_grades.h": "c",
-        "ch07_eg05_vectors3D": "c"
+        "ch07_eg05_vectors3D": "c",
+        "ch09_eg01.h": "c",
+        "ch09_eg02.h": "c"
     },
     "chat.disableAIFeatures": true
 }
